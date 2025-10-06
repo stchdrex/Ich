@@ -1,57 +1,77 @@
-
 <!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Max Mustermann – Wirtschaftsingenieur-Student</title>
+    <title>Christopher Drexler – Wirtschaftsingenieur-Student</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Persönliche Homepage von Christopher Drexler, Wirtschaftsingenieur-Student an der Hochschule Kempten.">
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; background: #f7f7f7; color: #222; }
-        header { background: #1e90ff; color: white; padding: 2em 1em; text-align: center; }
-        main { max-width: 800px; margin: 2em auto; background: white; padding: 2em; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);}
-        h1 { margin-bottom: 0.5em; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; background: #f4f8fb; color: #232323; }
+        header { background: #0d3c6e; color: #fff; padding: 2.5em 1em 2em 1em; text-align: center; }
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1em;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        main { max-width: 750px; margin: 2em auto; background: #fff; padding: 2em; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.07);}
+        h1 { margin-bottom: 0.2em; font-size: 2.4em; }
+        h2 { color: #0d3c6e; border-bottom: 1px solid #eee; padding-bottom: 0.3em; margin-bottom: 1em;}
         section { margin-bottom: 2em; }
-        footer { text-align: center; color: #666; padding: 1em 0; }
-        a { color: #1e90ff; }
+        ul { margin: 0; padding-left: 1.2em;}
+        footer { text-align: center; color: #666; padding: 1.2em 0; font-size: 0.97em;}
+        a { color: #0d3c6e; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .contact-list { list-style: none; padding: 0; }
+        .contact-list li { margin-bottom: 0.4em;}
+        @media (max-width: 600px) {
+            main { padding: 1em; }
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Max Mustermann</h1>
-        <p>Wirtschaftsingenieur-Student</p>
+        <!-- Optional: Dein Foto als Avatar. Ersetze src ggf. oder entferne die Zeile -->
+        <!-- <img src="dein-foto.jpg" alt="Christopher Drexler" class="avatar"> -->
+        <h1>Christopher Drexler</h1>
+        <p>Wirtschaftsingenieur-Student<br>Hochschule Kempten</p>
     </header>
     <main>
         <section>
             <h2>Über mich</h2>
             <p>
-                Ich bin Student des Wirtschaftsingenieurwesens mit besonderem Interesse an Technik, Wirtschaft und nachhaltigen Lösungen.
-                Auf dieser Seite findest du Informationen über meinen Werdegang, meine Projekte und wie du mich erreichen kannst.
+                Willkommen auf meiner persönlichen Homepage! Ich bin Christopher Drexler und studiere Wirtschaftsingenieurwesen an der <strong>Hochschule Kempten</strong>.
+                Mein Interesse gilt der Verbindung von Technik und Wirtschaft, besonders im Kontext nachhaltiger und innovativer Lösungen.
             </p>
         </section>
         <section>
             <h2>Ausbildung</h2>
             <ul>
-                <li>B.Sc. Wirtschaftsingenieurwesen, Technische Universität Musterstadt (seit 2022)</li>
+                <li>Wirtschaftsingenieurwesen (B.Sc.), Hochschule Kempten – seit 2022</li>
                 <li>Abitur, Gymnasium Beispielstadt (2022)</li>
             </ul>
         </section>
         <section>
             <h2>Projekte & Engagement</h2>
             <ul>
+                <li>Studienprojekt: Optimierung nachhaltiger Produktionsprozesse</li>
                 <li>Mitglied im VWI (Verein Deutscher Wirtschaftsingenieure)</li>
-                <li>Studienprojekt: Nachhaltige Produktionsprozesse</li>
                 <li>Studentische Unternehmensberatung</li>
             </ul>
         </section>
         <section>
             <h2>Kontakt</h2>
-            <p>
-                Du kannst mich gerne per <a href="mailto:max.mustermann@email.de">E-Mail</a> erreichen oder auf <a href="https://github.com/stchdrex">GitHub</a> besuchen.
-            </p>
+            <ul class="contact-list">
+                <li>E-Mail: <a href="mailto:christopher.drexler@email.de">christopher.drexler@email.de</a></li>
+                <li>GitHub: <a href="https://github.com/stchdrex" target="_blank">github.com/stchdrex</a></li>
+                <!-- Optional: LinkedIn oder weitere Netzwerke -->
+            </ul>
         </section>
     </main>
     <footer>
-        &copy; 2025 Max Mustermann
+        &copy; 2025 Christopher Drexler | Wirtschaftsingenieur-Student, Hochschule Kempten
     </footer>
 </body>
 </html>
